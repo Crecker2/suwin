@@ -71,7 +71,7 @@ function animateRotate(spawn) {
 function fun(){
 	var num = Math.random();
 	var spawn;
-	var offset = Math.floor(Math.random()*100)-75
+	var offset = Math.floor(Math.random()*100)
 	if(num <= .33){
 		$('body').append('<img class="spawn kent" style="left:'+ offset + '%" src="resources/kent.png">');
 	} else if( num > .33 && num <= .66){
