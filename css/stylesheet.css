@@ -29,18 +29,11 @@
 	font-weight: bold;
 }
 
-.backgroundimage{
-	width: 100%;
-	height: auto;
-	opacity: .9;
-}
-
 body{
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
-	background-color: #000;
-	background-image: url('../resources/hol.jpg');
+	background-color: #fff;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position-x: center;
@@ -71,19 +64,4 @@ body{
 .spawn{
 	position: absolute;
 	max-width: 75px;
-}
-@media(max-width: 758px){
-	body{
-		 background-size: auto 150vw;
-
-	}
-	.headertext h1{
-		font-size: 2.5em;
-	}
-}
-
-@media(max-width: 382px){
-	body{
-		background-size: auto 200vw;
-	}
 }
