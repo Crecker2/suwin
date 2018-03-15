@@ -63,5 +63,9 @@ body{
 
 .spawn{
 	position: absolute;
-	max-width: 75px;
+	max-width: 150px;
+}
+
+.spawn.kent{
+	max-width: 100px;
 }
